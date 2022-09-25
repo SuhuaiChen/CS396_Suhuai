@@ -7,6 +7,21 @@ This is your site JavaScript code - you can add interactivity and carry out proc
 // Use your menus or right-click / control-click and choose "Inspect" > "Console"
 console.log("Hello 🌎");
 
+let myHeading = document.querySelector('h1');
+
+function getName() {
+    const myName = prompt('Please enter your name.');
+  if (!myName) {
+    getName();
+  } 
+  else {
+    localStorage.setItem('name', myName);
+    myHeading.textContent = `Coucou, ${myName}!`;
+  }
+}
+// Run this function after the page is loaded
+document.addEventListener("DOMContentLoaded", getName());
+
 /* 
 Make the "Click me!" button move when the visitor clicks it:
 - First add the button to the page by following the "Next steps" in the README
