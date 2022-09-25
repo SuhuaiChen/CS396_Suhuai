@@ -36,11 +36,12 @@ to this section's matching END comment to see page-specific styles.
 
 /* Import fonts */
 
-.
 img {
-  
+  width: 300px;
+  height: 300px;
   border-radius: 50%;
 }
+
 
 img:hover {
   box-shadow: 12px 12px 12px 12px hsla(267, 75%, 80%, 1);
