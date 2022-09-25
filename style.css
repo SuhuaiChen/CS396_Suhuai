@@ -36,7 +36,15 @@ to this section's matching END comment to see page-specific styles.
 
 /* Import fonts */
 
+.
+img {
+  
+  border-radius: 50%;
+}
 
+img:hover {
+  box-shadow: 12px 12px 12px 12px hsla(267, 75%, 80%, 1);
+}
 
 /* Our remix on glitch button */
 .btn--remix {
@@ -166,9 +174,7 @@ h2 {
     
 }
 
-body.image{
-  border-radius: 50%;
-}
+
 /* Interactive image */
 .illustration:active {
   transform: translateY(5px);
