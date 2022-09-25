@@ -10,6 +10,7 @@ console.log("Hello 🌎");
 let myHeading = document.querySelector('h1');
 
 function getName() {
+  console.log("requesting name");
     const myName = prompt('Please enter your name.');
   if (!myName) {
     getName();
@@ -30,6 +31,7 @@ const btn = document.querySelector("button"); // Get the button from the page
 // Detect clicks on the button
 if (btn) {
   btn.onclick = function() {
+    console.log("button is clicked");
     // The JS works in conjunction with the 'dipped' code in style.css
     btn.classList.toggle("dipped");
     window.location.href='https://amazondating.co/';
