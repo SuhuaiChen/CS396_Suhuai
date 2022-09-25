@@ -44,7 +44,7 @@ to this section's matching END comment to see page-specific styles.
   padding: 0.75rem 1rem;
   font-size: 1.1rem;
   line-height: 1rem;
-  font-weight: 500;
+  font-weight: 1000;
   height: 2.75rem;
   align-items: center;
   cursor: pointer;
@@ -72,16 +72,16 @@ to this section's matching END comment to see page-specific styles.
   padding: 1rem 0 0.75rem 0;
   width: 100%;
   flex-wrap: wrap;
-  border-top: 4px solid #ffffff;
+  border-top: 4px solid #000000;
 }
 
 
 a:not(.btn--remix):visited {
-  font-family: HK Grotesk;
+  font-family: cookie, cursive;
   font-style: normal;
   font-weight: normal;
   font-size: 1.1rem;
-  color: #000;
+  color: #000000;
   text-decoration: none;
   border-style: none;
 }
@@ -103,7 +103,8 @@ END Glitch hello-app default styles
 
 body {
   font-family: 'Zhi Mang Xing', cursive;
-  background-color: hsla(31, 100%, 75%, 0.98)
+  background-color: hsla(31, 100%, 75%, 0.98);
+  font-size: 30px;
 }
 
 /* Page structure */
@@ -122,8 +123,8 @@ body {
 
 /* Very light scaling for our illustration */
 .title {
-  color: #2800FF;
-  font-family: HK Grotesk;
+  color: hsla(183, 100%, 57%, 1);
+  font-family: cookie, cursive;
   font-style: normal;
   font-weight: bold;
   font-size: 100px;
@@ -159,6 +160,9 @@ input {
 /* Subheading */
 h2 {
   color: #2800FF;
+  font-family: normal;
+  
+    
 }
 
 /* Interactive image */
