@@ -13,6 +13,7 @@ stupid, fun, cool
 ## What is one thing you want to be able to build after taking this class?
 I don't know. A web-based game?
 ## List any resources (code, images, etc) you've used, and where you got them from
-
-## List any help you got from classmates or websites, so that you can remember it 
-for later
+Mozilla: [link text](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide)
+## List any help you got from classmates or websites, so that you can remember it for later
+how to add background music
+[link text](https://www.quackit.com/html/codes/html_background_music_codes.cfm)
