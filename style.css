@@ -104,7 +104,7 @@ END Glitch hello-app default styles
 body {
   font-family: 'Zhi Mang Xing', cursive;
   background-color: hsla(31, 100%, 75%, 0.98);
-  font-size: 30px;
+  font-size: 25px;
 }
 
 /* Page structure */
@@ -147,24 +147,28 @@ body {
 /* Button - Add it from the README instructions */
 button,
 input {
-  font-family: inherit;
+  font-family: normal;
   font-size: 100%;
-  background: #FFFFFF;
+  color: hsla(3, 100%, 70%, 1);
+  background: hsla(61, 100%, 73%, 1);
   border: 1px solid #000000;
   box-sizing: border-box;
-  border-radius: 4px;
+  border-radius: 200px;
   padding: 0.5rem 1rem;
   transition: 500ms;
 }
 
 /* Subheading */
 h2 {
-  color: #2800FF;
+  color: hsla(91, 100%, 58%, 1);
   font-family: normal;
   
     
 }
 
+body.image{
+  border-radius: 50%;
+}
 /* Interactive image */
 .illustration:active {
   transform: translateY(5px);
